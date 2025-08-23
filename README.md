@@ -65,6 +65,5 @@ To set up a MySQL container, follow these steps:
 
 4. **Run the Notebook**: Execute the cells in the notebook to connect to the MySQL database and perform operations.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## Acknowledgements
+This project is one of the assignment in [Meta Database Engineering Professional Certificate on Coursera](https://www.coursera.org/professional-certificates/meta-database-engineer)
