@@ -1,0 +1,1 @@
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY DEFINER VIEW `db_capstone_project`.`OrdersView` AS select `o`.`OrderID` AS `OrderID`,`d`.`Quantity` AS `Quantity`,`o`.`TotalCost` AS `TotalCost` from (`db_capstone_project`.`OrderDetail` `d` join `db_capstone_project`.`Orders` `o` on((`d`.`OrderID` = `o`.`OrderID`))) where (`d`.`Quantity` > 2);
